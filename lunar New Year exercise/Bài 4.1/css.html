@@ -1,0 +1,8 @@
+$(document).ready(function () {
+            $("#clear").click(function () {
+                $("#alert").remove();
+            })
+        })
+		$('#myModal').on('shown.bs.modal', function () {
+			$('#myInput').trigger('focus')
+		})
